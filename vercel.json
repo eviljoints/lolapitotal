@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.ps1",
+      "use": "@vercel/build-powershell@next"
+    }
+  ]
+}
